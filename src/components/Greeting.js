@@ -1,6 +1,6 @@
-import React, { useEffect } from "react";
-import { fetchGreetings } from "../store/greetingsSlice";
-import { useDispatch, useSelector } from "react-redux";
+import React, { useEffect } from 'react';
+import { useDispatch, useSelector } from 'react-redux';
+import { fetchGreetings } from '../store/greetingsSlice';
 
 function Greeting() {
   const dispatch = useDispatch();
@@ -12,11 +12,11 @@ function Greeting() {
   return (
     <div>
       {randomGreeting && <h3>{randomGreeting.greeting}</h3>}
-      <button onClick={() => dispatch(fetchGreetings())}>
+      <button type="button" onClick={() => dispatch(fetchGreetings())}>
         Get Message
       </button>
     </div>
-  )
+  );
 }
 
 export default Greeting;
