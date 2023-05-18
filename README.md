@@ -1,70 +1,133 @@
-# Getting Started with Create React App
+<a name="readme-top"></a>
+[![Contributors](https://img.shields.io/github/contributors/tobuya/hello-react-front-end)](https://github.com/tobuya/hello-react-front-end/graphs/contributors)
+[![LastUpdate](https://img.shields.io/github/last-commit/tobuya/hello-react-front-end)](https://github.com/tobuya/hello-react-front-end/commits/dev)
+[![Stargazers](https://img.shields.io/github/stars/tobuya/hello-react-front-end)](https://github.com/tobuya/hello-react-front-end/stargazers)
+[![Issues](https://img.shields.io/github/issues/tobuya/hello-react-front-end)](https://github.com/tobuya/hello-react-front-end/issues)
+[![License](https://img.shields.io/github/license/tobuya/hello-react-front-end)](https://github.com/tobuya/hello-react-front-end/blob/main/LICENSE)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<details>
+<summary>Table of Contents</summary>
 
-## Available Scripts
+- [🪙 Budget Tracker](#-hello-react-front-end)
+  - [🧰 Tech Stack  ](#-tech-stack--)
+  - [✨ Key Features  ](#-key-features--)
+  - [📘 Getting Started  ](#-getting-started--)
+    - [📋 Prerequisites](#-prerequisites)
+    - [📂 Setup](#-setup)
+    - [📥 Installation](#-installation)
+    - [💻 Usage](#-usage)
+    - [🧪 Run tests](#-run-tests)
+  - [👨‍🚀 Authors  ](#-authors--)
+  - [🎯 Future Features  ](#-future-features--)
+  - [🤝 Contribution  ](#-contribution--)
+  - [💖 Show Your Support  ](#-show-your-support--)
+  - [🙏 Acknowledgements](#-acknowledgements)
+  - [📜 License ](#-license-)
+</details>
 
-In the project directory, you can run:
+# hello-react-front-end
 
-### `npm start`
+**hello-react-front-end** is a tutorial for creating a React/Redux front-end that will display a random greeting from a database from this Rails API app [hello-rails-back-end](https://github.com/tobuya/hello-rails-back-end).
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 🧰 Tech Stack  <a name="tech-stack"></a>
+- React
+- Redux
 
-### `npm test`
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## ✨ Key Features  <a name="key-features"></a>
+- Implements a connection between a Ruby on Rails back-end and React front-end
 
-### `npm run build`
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 📘 Getting Started  <a name="getting-started"></a>
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+To run this project locally, you'll need to follow these steps.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### 📋 Prerequisites
 
-### `npm run eject`
+Make sure you have the following installed on your machine:
+- [Node.js](https://node.org/)
+- [React](https://legacy.reactjs.org/)
+- [Redux](https://redux.js.org/)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### 📂 Setup
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Clone this repository to your desired folder.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+```sh
+cd my-project
+git clone git@github.com:tobuya/hello-react-front-end.git
+```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### 📥 Installation
 
-## Learn More
+Install the required gems with:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+```sh
+npm install react-redux, react-router-dom
+```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### 💻 Usage
 
-### Code Splitting
+To run the development server, execute the following command:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+```sh
+npm run build
+npm start
+```
 
-### Analyzing the Bundle Size
+### 🧪 Run tests
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+To run tests, run the following command:
 
-### Making a Progressive Web App
+```sh
+npm test
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-### Advanced Configuration
+## 👨‍🚀 Authors  <a name="author"></a>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+👤 **Thomas Obuya**
 
-### Deployment
+- [GitHub](https://github.com/tobuya)
+- [Twitter](https://twitter.com/MullerTheGreat1)
+- [LinkedIn](https://linkedin.com/in/tobuya)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
-### `npm run build` fails to minify
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## 🎯 Future Features  <a name="future-features"></a>
+
+- [ ] Styling
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 🤝 Contribution  <a name="contribution"></a>
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](https://github.com/tobuya/hello-react-front-end/issues).
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 💖 Show Your Support  <a name="support"></a>
+
+If you like this project, please consider giving it a ⭐.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 🙏 Acknowledgements
+
+I would like to thank Micronauts.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 📜 License <a name="license"></a>
+
+This project is [MIT](./LICENSE) licensed.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
